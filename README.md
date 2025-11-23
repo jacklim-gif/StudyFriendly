@@ -7,11 +7,10 @@ A beautiful, modern, and completely open-source flashcard experience built for r
 StudyFriendly turns studying into an addictive game: flip cards → earn XP → level up → unlock new categories → watch your progress grow — all wrapped in a sleek dark cyberpunk/neon interface that looks incredible on any device.
 
 ## 👥 Contributors
-## Contributors
 
-<a href="https://github.com/jacklim-gif">Jack</a>  
-<a href="https://github.com/jyhtonix">Jason</a>  
-<a href="https://github.com/jasonsoo30">Xi Wen/a>
+- **Jack** – Prototype development (IBM watsonx Orchestrate)
+- **Xi Wen** – GitHub repositories
+- **Jason** – LEAN Canvas, Presentation slides, dialogues
 
 
 
