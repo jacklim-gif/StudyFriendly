@@ -7,10 +7,15 @@ A beautiful, modern, and completely open-source flashcard experience built for r
 StudyFriendly turns studying into an addictive game: flip cards → earn XP → level up → unlock new categories → watch your progress grow — all wrapped in a sleek dark cyberpunk/neon interface that looks incredible on any device.
 
 ## 👥 Contributors
+# Jack
+/docs/ @jackusername
 
-- **Jack** – Prototype development (IBM watsonx Orchestrate)
-- **Xi Wen** – GitHub repositories
-- **Jason** – LEAN Canvas, Presentation slides, dialogues
+# Xi Wen
+/src/ @xiwenusername
+
+# Jason
+/presentation/ @jasonsoo30
+
 
 ### Features
 - **Gamification that actually works** — +15 XP for mastering cards, +5 XP for practice. Level up every 100 XP.
