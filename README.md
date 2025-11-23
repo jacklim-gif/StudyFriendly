@@ -1,30 +1,55 @@
-StudyFriendly – The gamified flashcard app that makes learning feel like playing
-A beautiful, modern flashcard experience built for real language learners and skill-builders who are tired of boring memorization apps.
-StudyFriendly turns studying into a game: flip cards, earn XP, level up, unlock categories, and watch your progress grow – all wrapped in a sleek dark interface with glowing cyan accents that looks incredible on any device.
-What makes StudyFriendly special
+# StudyFriendly ✨
 
-Gamification that actually works – Earn +15 XP for mastering cards, +5 XP for practice. Every 100 XP = one level up. See your progress instantly.
-15+ real-world categories – Travel, Daily Speaking, Interview, Workplace, Shopping, Food, Grammar, Academic English, Phone Calls, Directions, Email Writing, Slang, School, Malaysian Manglish, and more.
-Malaysian Manglish deck – The first flashcard app with a full Manglish category – perfect for locals and learners who want to sound natural.
-Smart progression system – Cards move between Easy → Normal → Hard levels based on how well you know them (Spaced Repetition lite).
-Persistent progress – XP, levels, and mastered cards saved forever in localStorage (no account required).
-Built-in AI Support Chat – Stuck? Confused? Need motivation? Just click the floating cyan button and chat with your personal AI tutor powered by GPT-4o-mini. It knows everything about the app and gives friendly, encouraging answers with emojis.
-Stunning dark + neon design – Obsidian black background, glowing cyan highlights, smooth animations, custom scrollbars, and a cyberpunk-inspired aesthetic that makes studying feel cool.
-Fully responsive – Looks and works perfectly on phone, tablet, and desktop.
-No backend needed – Everything runs client-side except the optional AI chat (via Vercel serverless).
+**The gamified flashcard app that makes learning languages & skills feel like playing a game.**
 
-Built with the modern stack
+A beautiful, modern, and completely open-source flashcard experience built for real learners who are tired of boring memorization tools.
 
-Next.js 14 (App Router)
-TypeScript
-Tailwind CSS
-shadcn/ui components
-Vercel AI SDK
-Lucide icons
-LocalStorage persistence
+StudyFriendly turns studying into an addictive game: flip cards → earn XP → level up → unlock new categories → watch your progress grow — all wrapped in a sleek dark cyberpunk/neon interface that looks incredible on any device.
 
-Whether you're preparing for IELTS, job interviews, travel, daily conversations, or just want to finally understand Manglish – StudyFriendly makes it fun, trackable, and actually effective.
-Start flipping. Start leveling up. Start speaking with confidence.
-Made with love in Malaysia
-Open source • Free forever • No ads • No tracking
+![StudyFriendly Preview](https://i.imgur.com/6rXjK2P.png) *(add your own screenshot later)*
+
+### Features
+- **Gamification that actually works** — +15 XP for mastering cards, +5 XP for practice. Level up every 100 XP.
+- **15+ real-world categories** — Travel, Interview, Daily Speaking, Workplace, Shopping, Food, Grammar, Academic English, Phone Calls, Directions, Email Writing, Slang, School, Malaysian Manglish, and more.
+- **Malaysian Manglish deck** — The first flashcard app with a full Manglish category. Lah, so shiok one!
+- **Smart progression** — Cards move between Easy → Normal → Hard based on your performance (Spaced Repetition lite).
+- **Persistent progress** — XP, levels, and mastered cards saved forever in localStorage (no login required).
+- **Built-in AI Support Chat** — Stuck? Click the glowing cyan button and chat with your personal AI tutor (powered by GPT-4o-mini). It knows everything about the app and gives friendly, encouraging answers.
+- **Stunning dark + neon design** — Obsidian black background, glowing cyan accents, smooth animations, custom scrollbars.
+- **Fully responsive** — Perfect on mobile, tablet, and desktop.
+- **Zero backend needed** (except optional AI chat via Vercel serverless).
+
+### Tech Stack
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- shadcn/ui + Radix UI
+- Vercel AI SDK (streaming chat)
+- Lucide Icons
+- localStorage persistence
+
+### Live Demo
 https://studyfriendly.vercel.app
+
+### How to Run Locally (super easy)
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/yourusername/StudyFriendly.git
+cd StudyFriendly
+
+# 2. Install dependencies
+npm install
+# or
+yarn install
+# or
+pnpm install
+
+# 3. Run the development server
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+
+# Open http://localhost:3000 in your browser
