@@ -27,7 +27,7 @@ StudyFriendly turns studying into an addictive game: flip cards → earn XP → 
 - localStorage persistence
 
 ### Live Demo
-https://studyfriendly.vercel.app/
+https://v0-study-friendly-website-developme.vercel.app/
 
 ### How to Run Locally (super easy)
 
