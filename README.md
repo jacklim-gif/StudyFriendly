@@ -15,7 +15,7 @@ Fully open-source and designed for learners who want a modern, fast, and engagin
 ## 👥 Contributors
 | Name | Role |
 |------|------|
-| **Jack** | Prototype Development, IBM watsonx Orchestrate |
+| **[Jack](https://github.com/jacklim-gif)** | Prototype Development, IBM watsonx Orchestrate |
 | **Xi Wen** | Repository Setup & Management |
 | **Jason** | LEAN Canvas, Presentation Slides, Dialogues |
 
