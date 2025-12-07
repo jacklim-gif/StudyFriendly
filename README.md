@@ -1,43 +1,77 @@
-# 2048 AI Auto-Solver ✨
+StudyFriendly ✨
 
-**The intelligent, autonomous game engine that beats 2048 while you watch.**
+The gamified flashcard app that makes learning languages & skills feel like playing a game.
 
-A beautiful, modern, and completely open-source implementation of the classic 2048 game. Unlike standard clones, this version comes with a built-in super-intelligent Agent that uses game theory to predict moves, optimize board space, and reach the 2048 tile autonomously.
+A beautiful, modern, and completely open-source flashcard experience built for real learners who are tired of boring memorization tools.
 
-It turns a simple puzzle into a fascinating showcase of AI—wrapped in a sleek Glassmorphism interface that looks incredible on any device.
+StudyFriendly turns studying into an addictive game: flip cards → earn XP → level up → unlock new categories → watch your progress grow — all wrapped in a sleek dark cyberpunk/neon interface that looks incredible on any device.
 
-## 👥 Contributors
+👥 Contributors
 
-* **Jack** – Core AI Logic & Algorithm Implementation
-* **Open Source** – *[Your Name/Handle Here]* (Feel free to contribute!)
+Jack – Prototype development (IBM watsonx Orchestrate)
 
-## Features
+Xi Wen – GitHub repositories
 
-* **Auto-Solver Mode** — Watch the AI instantly take over and clear the board using the Expectimax algorithm.
-* **Glassmorphism UI + Animations** — Smooth tile sliding, blur effects, and glowing highlights for a premium feel.
-* **Fast-Win Demo Mode** — Spawns larger tiles (2, 4, 8, 16, 32) so you can reach the 2048 tile in seconds for recording videos.
-* **Survival Intelligence** — When the board gets crowded, the AI automatically deepens its search (from 4 steps to 6 steps) to find an escape route.
-* **Fully Responsive** — Perfect scaling on mobile, tablet, and desktop.
-* **Zero Backend Needed** — 100% front-end technology. Runs directly in your browser.
+Jason – LEAN Canvas, Presentation slides, dialogues
 
-## Tech Stack
+Features
 
-* **Vanilla JavaScript (ES6+)**
-* **HTML5 Canvas & DOM Manipulation**
-* **CSS3 (Animations & Variables)**
-* **Expectimax Algorithm (Game Theory)**
-* **Heuristic Evaluation Functions**
+Gamification that actually works — +15 XP for mastering cards, +5 XP for practice. Level up every 100 XP.
 
-## How to Run Locally (super easy)
+15+ real-world categories — Travel, Interview, Daily Speaking, Workplace, Shopping, Food, Grammar, Academic English, Phone Calls, Directions, Email Writing, Slang, School, Malaysian Manglish, and more.
 
-```bash
+Malaysian Manglish deck — The first flashcard app with a full Manglish category. Lah, so shiok one!
+
+Smart progression — Cards move between Easy → Normal → Hard based on your performance (Spaced Repetition lite).
+
+Persistent progress — XP, levels, and mastered cards saved forever in localStorage (no login required).
+
+Built-in AI Support Chat — Stuck? Click the glowing cyan button and chat with your personal AI tutor (powered by GPT-4o-mini). It knows everything about the app and gives friendly, encouraging answers.
+
+Stunning dark + neon design — Obsidian black background, glowing cyan accents, smooth animations, custom scrollbars.
+
+Fully responsive — Perfect on mobile, tablet, and desktop.
+
+Zero backend needed — (except optional AI chat via Vercel serverless).
+
+Tech Stack
+
+Next.js 14 (App Router)
+
+TypeScript
+
+Tailwind CSS
+
+shadcn/ui + Radix UI
+
+Vercel AI SDK (streaming chat)
+
+Lucide Icons
+
+localStorage persistence
+
+Live Demo
+
+https://v0-study-friendly-website-developme.vercel.app/
+
+How to Run Locally (super easy)
+
 # 1. Clone the repo
-git clone [https://github.com/jacklim-gif/2048-With-AI-Auto-Solve.git](https://github.com/jacklim-gif/2048-With-AI-Auto-Solve.git)
-cd 2048-With-AI-Auto-Solve
+git clone [https://github.com/yourusername/StudyFriendly.git](https://github.com/yourusername/StudyFriendly.git)
+cd StudyFriendly
 
-# 2. Open the game
-# Since this project is pure HTML/JS, you don't need npm install!
-# Just double-click 'game.html' to open it in your browser.
+# 2. Install dependencies
+npm install
+# or
+yarn install
+# or
+pnpm install
 
-# OR if you use VS Code Live Server:
-# Right-click 'game.html' -> "Open with Live Server"
+# 3. Run the development server
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+
+# Open http://localhost:3000 in your browser
