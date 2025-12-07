@@ -1,32 +1,32 @@
 <div align="center">
 
-StudyFriendly ✨
+2048 AI Auto-Solver ✨
 
-The gamified flashcard app that makes learning languages & skills feel like playing a game.
-
-
+The intelligent, autonomous game engine that beats 2048 while you watch. 
 
 
 
-Flip cards, earn XP, level up, and master new skills in a cyberpunk/neon universe.
+ A beautiful, modern, and completely open-source implementation of the classic 2048 game.
 
-🎮 Launch Live App
-
-
+🎮 Play the Live Demo 
 
 
 
-(Click above to start learning instantly)
+ (Click above to watch the AI in action)
 
 </div>
 
+🚀 About The Project
+
+Unlike standard clones, this version comes with a built-in super-intelligent Agent that uses game theory to predict moves, optimize board space, and reach the 2048 tile autonomously.
+
+It turns a simple puzzle into a fascinating showcase of AI—wrapped in a sleek Glassmorphism interface that looks incredible on any device.
+
 👥 Contributors
 
-[Jack](https://github.com/jacklim-gif) – Prototype development (IBM watsonx Orchestrate)
+Jack – Core AI Logic & Algorithm Implementation
 
-[Xi Wen](https://github.com/xiwen1212) – GitHub repositories
-
-[Jason](https://github.com/jyhtonix) – LEAN Canvas, Presentation slides, dialogues
+Open Source – [Your Name/Handle Here] (Feel free to contribute!)
 
 ✨ Features
 
@@ -34,89 +34,48 @@ Feature
 
 Description
 
-🎮 Gamification
+⚡ Auto-Solver Mode
 
-+15 XP for mastering cards, +5 XP for practice. Level up every 100 XP to stay motivated.
+Watch the AI instantly take over and clear the board using the Expectimax algorithm.
 
-🌍 15+ Categories
+🎨 Glassmorphism UI
 
-Travel, Interview, Daily Speaking, Workplace, Shopping, Food, Grammar, Academic English, Slang, and more.
+Smooth tile sliding, blur effects, and glowing highlights for a premium feel.
 
-🇲🇾 Manglish Deck
+⏩ Fast-Win Demo Mode
 
-The first flashcard app with a full Malaysian Manglish category. Lah, so shiok one!
+Spawns larger tiles (2, 4, 8, 16, 32) so you can reach the 2048 tile in seconds for recording videos.
 
-🧠 Smart Progression
+🧠 Survival Intelligence
 
-Cards move between Easy → Normal → Hard based on your performance (Spaced Repetition lite).
-
-💾 Persistent Progress
-
-XP, levels, and mastered cards are saved forever in localStorage (no login required).
-
-🤖 AI Support Chat
-
-Stuck? Click the glowing cyan button to chat with your personal AI tutor (powered by GPT-4o-mini).
-
-🎨 Cyberpunk UI
-
-Obsidian black background, glowing cyan accents, smooth animations, and custom scrollbars.
+When the board gets crowded, the AI automatically deepens its search (from 4 steps to 6 steps) to find an escape route.
 
 📱 Fully Responsive
 
-Perfectly optimized for mobile, tablet, and desktop experiences.
+Perfect scaling on mobile, tablet, and desktop.
+
+🔧 Zero Backend Needed
+
+100% front-end technology. Runs directly in your browser.
 
 🛠️ Tech Stack
 
-Framework: Next.js 14 (App Router)
+Core: Vanilla JavaScript (ES6+)
 
-Language: TypeScript
+Rendering: HTML5 Canvas & DOM Manipulation
 
-Styling: Tailwind CSS
+Styling: CSS3 (Animations & Variables)
 
-Components: shadcn/ui + Radix UI
+Logic: Expectimax Algorithm (Game Theory)
 
-AI Integration: Vercel AI SDK (streaming chat)
+Optimization: Heuristic Evaluation Functions
 
-Icons: Lucide Icons
+🚀 How to Run Locally (super easy)
 
-Storage: localStorage persistence
+# 1. Clone the repo git clone [https://github.com/jacklim-gif/2048-With-AI-Auto-Solve.git](https://github.com/jacklim-gif/2048-With-AI-Auto-Solve.git) cd 2048-With-AI-Auto-Solve  # 2. Open the game # Since this project is pure HTML/JS, you don't need npm install! # Just double-click 'game.html' to open it in your browser.  # OR if you use VS Code Live Server: # Right-click 'game.html' -> "Open with Live Server" 
 
-🚀 How to Run Locally
-
-No complex backend setup required. Just clone and run.
-
-1. Clone the repository
-
-git clone [https://github.com/yourusername/StudyFriendly.git](https://github.com/yourusername/StudyFriendly.git)
-cd StudyFriendly
-
-
-2. Install dependencies
-
-npm install
-# or
-yarn install
-# or
-pnpm install
-
-
-3. Run the development server
-
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-
-
-Open http://localhost:3000 with your browser to see the result.
-
-<div align="center">
+<div align="center"> 
 
 
 
-
-
-Built with ❤️ by the StudyFriendly Team
-</div>
+ Built with ❤️ by Jack Lim </div>
