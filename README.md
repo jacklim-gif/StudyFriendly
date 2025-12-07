@@ -1,6 +1,26 @@
+<div align="center">
+
 StudyFriendly ✨
 
 The gamified flashcard app that makes learning languages & skills feel like playing a game.
+
+
+
+
+
+Flip cards, earn XP, level up, and master new skills in a cyberpunk/neon universe.
+
+🎮 Launch Live App
+
+
+
+
+
+(Click above to start learning instantly)
+
+</div>
+
+🚀 About The Project
 
 A beautiful, modern, and completely open-source flashcard experience built for real learners who are tired of boring memorization tools.
 
@@ -8,70 +28,101 @@ StudyFriendly turns studying into an addictive game: flip cards → earn XP → 
 
 👥 Contributors
 
-Jack – Prototype development (IBM watsonx Orchestrate)
+[Jack](https://github.com/jacklim-gif) – Prototype development (IBM watsonx Orchestrate)
 
-Xi Wen – GitHub repositories
+[Xi Wen](https://github.com/xiwen1212) – GitHub repositories
 
-Jason – LEAN Canvas, Presentation slides, dialogues
+[Jason](https://github.com/jyhtonix) – LEAN Canvas, Presentation slides, dialogues
 
-Features
+✨ Features
 
-Gamification that actually works — +15 XP for mastering cards, +5 XP for practice. Level up every 100 XP.
+Feature
 
-15+ real-world categories — Travel, Interview, Daily Speaking, Workplace, Shopping, Food, Grammar, Academic English, Phone Calls, Directions, Email Writing, Slang, School, Malaysian Manglish, and more.
+Description
 
-Malaysian Manglish deck — The first flashcard app with a full Manglish category. Lah, so shiok one!
+🎮 Gamification
 
-Smart progression — Cards move between Easy → Normal → Hard based on your performance (Spaced Repetition lite).
++15 XP for mastering cards, +5 XP for practice. Level up every 100 XP to stay motivated.
 
-Persistent progress — XP, levels, and mastered cards saved forever in localStorage (no login required).
+🌍 15+ Categories
 
-Built-in AI Support Chat — Stuck? Click the glowing cyan button and chat with your personal AI tutor (powered by GPT-4o-mini). It knows everything about the app and gives friendly, encouraging answers.
+Travel, Interview, Daily Speaking, Workplace, Shopping, Food, Grammar, Academic English, Slang, and more.
 
-Stunning dark + neon design — Obsidian black background, glowing cyan accents, smooth animations, custom scrollbars.
+🇲🇾 Manglish Deck
 
-Fully responsive — Perfect on mobile, tablet, and desktop.
+The first flashcard app with a full Malaysian Manglish category. Lah, so shiok one!
 
-Zero backend needed — (except optional AI chat via Vercel serverless).
+🧠 Smart Progression
 
-Tech Stack
+Cards move between Easy → Normal → Hard based on your performance (Spaced Repetition lite).
 
-Next.js 14 (App Router)
+💾 Persistent Progress
 
-TypeScript
+XP, levels, and mastered cards are saved forever in localStorage (no login required).
 
-Tailwind CSS
+🤖 AI Support Chat
 
-shadcn/ui + Radix UI
+Stuck? Click the glowing cyan button to chat with your personal AI tutor (powered by GPT-4o-mini).
 
-Vercel AI SDK (streaming chat)
+🎨 Cyberpunk UI
 
-Lucide Icons
+Obsidian black background, glowing cyan accents, smooth animations, and custom scrollbars.
 
-localStorage persistence
+📱 Fully Responsive
 
-Live Demo
+Perfectly optimized for mobile, tablet, and desktop experiences.
 
-https://v0-study-friendly-website-developme.vercel.app/
+🛠️ Tech Stack
 
-How to Run Locally (super easy)
+Framework: Next.js 14 (App Router)
 
-# 1. Clone the repo
+Language: TypeScript
+
+Styling: Tailwind CSS
+
+Components: shadcn/ui + Radix UI
+
+AI Integration: Vercel AI SDK (streaming chat)
+
+Icons: Lucide Icons
+
+Storage: localStorage persistence
+
+🚀 How to Run Locally
+
+No complex backend setup required. Just clone and run.
+
+1. Clone the repository
+
 git clone [https://github.com/yourusername/StudyFriendly.git](https://github.com/yourusername/StudyFriendly.git)
 cd StudyFriendly
 
-# 2. Install dependencies
+
+2. Install dependencies
+
 npm install
 # or
 yarn install
 # or
 pnpm install
 
-# 3. Run the development server
+
+3. Run the development server
+
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
 
-# Open http://localhost:3000 in your browser
+
+Open http://localhost:3000 with your browser to see the result.
+
+<div align="center">
+
+
+
+
+
+Built with ❤️ by the StudyFriendly Team
+</div>
