@@ -1,81 +1,118 @@
-<div align="center">
+StudyFriendly ✨
 
-2048 AI Auto-Solver ✨
+A gamified, AI-assisted flashcard app that makes learning feel like playing a game — powered by a sleek cyberpunk/neon UI and IBM watsonx Orchestrate.
 
-The intelligent, autonomous game engine that beats 2048 while you watch. 
+🚀 Overview
 
+StudyFriendly transforms traditional flashcards into an addictive learning experience:
 
+Flip cards → Earn XP → Level up → Unlock new categories → Master languages & skills
 
- A beautiful, modern, and completely open-source implementation of the classic 2048 game.
-
-🎮 Play the Live Demo 
-
-
-
- (Click above to watch the AI in action)
-
-</div>
-
-🚀 About The Project
-
-Unlike standard clones, this version comes with a built-in super-intelligent Agent that uses game theory to predict moves, optimize board space, and reach the 2048 tile autonomously.
-
-It turns a simple puzzle into a fascinating showcase of AI—wrapped in a sleek Glassmorphism interface that looks incredible on any device.
+A fully open-source project designed for real learners who want a modern, fast, and engaging study tool.
 
 👥 Contributors
+Name	Role
+Jack	Prototype Development, IBM watsonx Orchestrate
+Xi Wen	Repository Setup & Management
+Jason	LEAN Canvas, Presentation Slides, Dialogues
 
-Jack – Core AI Logic & Algorithm Implementation
-
-Open Source – [Your Name/Handle Here] (Feel free to contribute!)
+Want to contribute? PRs welcome!
 
 ✨ Features
+🎮 Gamified Learning
 
-Feature
++15 XP for mastering cards
 
-Description
++5 XP for practice
 
-⚡ Auto-Solver Mode
+Level up every 100 XP
 
-Watch the AI instantly take over and clear the board using the Expectimax algorithm.
+🌍 15+ Learning Categories
 
-🎨 Glassmorphism UI
+Travel, Interview, Daily Speaking, Workplace, Shopping, Food, Grammar, Slang, Academic English & more.
 
-Smooth tile sliding, blur effects, and glowing highlights for a premium feel.
+🇲🇾 Malaysian Manglish Deck
 
-⏩ Fast-Win Demo Mode
+The first flashcard app with a complete Manglish deck:
+“lah”, “meh”, “leh”, “so shiok”, etc.
 
-Spawns larger tiles (2, 4, 8, 16, 32) so you can reach the 2048 tile in seconds for recording videos.
+🧠 Smart Progression
 
-🧠 Survival Intelligence
+Cards automatically adjust difficulty using Spaced Repetition (lite).
 
-When the board gets crowded, the AI automatically deepens its search (from 4 steps to 6 steps) to find an escape route.
+🤖 AI Support Chat
+
+Powered by GPT-4o-mini with Vercel AI SDK.
+Learners get hints, explanations, and coaching on demand.
+
+💾 Persistent Progress
+
+All XP, levels, and mastered cards are stored in localStorage.
+No backend needed. No login required.
+
+🎨 Cyberpunk/Neon Interface
+
+Obsidian dark theme
+
+Glowing cyan effects
+
+Smooth card animations
+
+Custom scrollbars
 
 📱 Fully Responsive
 
-Perfect scaling on mobile, tablet, and desktop.
-
-🔧 Zero Backend Needed
-
-100% front-end technology. Runs directly in your browser.
+Perfect on mobile, tablet, and desktop.
 
 🛠️ Tech Stack
+Category	Technology
+Framework	Next.js 14 (App Router)
+Language	TypeScript
+Styling	Tailwind CSS
+UI Library	shadcn/ui + Radix UI
+Icons	Lucide Icons
+AI	Vercel AI SDK
+Storage	localStorage
+Automation	IBM watsonx Orchestrate
+🔧 Installation
+# 1. Clone the repository
+git clone https://github.com/jacklim-gif/StudyFriendly.git
+cd StudyFriendly
 
-Core: Vanilla JavaScript (ES6+)
+# 2. Install dependencies
+npm install
 
-Rendering: HTML5 Canvas & DOM Manipulation
-
-Styling: CSS3 (Animations & Variables)
-
-Logic: Expectimax Algorithm (Game Theory)
-
-Optimization: Heuristic Evaluation Functions
-
-🚀 How to Run Locally (super easy)
-
-# 1. Clone the repo git clone [https://github.com/jacklim-gif/2048-With-AI-Auto-Solve.git](https://github.com/jacklim-gif/2048-With-AI-Auto-Solve.git) cd 2048-With-AI-Auto-Solve  # 2. Open the game # Since this project is pure HTML/JS, you don't need npm install! # Just double-click 'game.html' to open it in your browser.  # OR if you use VS Code Live Server: # Right-click 'game.html' -> "Open with Live Server" 
-
-<div align="center"> 
+# 3. Run the development server
+npm run dev
 
 
+Now open:
 
- Built with ❤️ by Jack Lim </div>
+http://localhost:3000
+
+📂 Project Structure
+StudyFriendly/
+│── app/              # Next.js app router pages
+│── components/       # UI components
+│── data/             # Decks & flashcard categories
+│── public/           # Icons & assets
+│── styles/           # Global styles
+│── utils/            # XP system, AI helpers
+│── ...
+
+🧭 Future Improvements
+
+Cloud sync (Supabase / Firebase)
+
+User accounts
+
+Leaderboards + streak system
+
+Multiplayer quiz mode
+
+Export/import deck feature
+
+❤️ Support
+
+If you like this project, please ⭐ the repo.
+It helps more people discover it!
