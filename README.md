@@ -1,16 +1,24 @@
+<div align="center">
+
 StudyFriendly ✨
 
 The gamified flashcard app that makes learning languages & skills feel like playing a game.
+
+
+
+
 
 Flip cards, earn XP, level up, and master new skills in a cyberpunk/neon universe.
 
 🎮 Launch Live App
 
-🚀 About The Project
 
-A beautiful, modern, and completely open-source flashcard experience built for real learners who are tired of boring memorization tools.
 
-StudyFriendly turns studying into an addictive game: flip cards → earn XP → level up → unlock new categories → watch your progress grow — all wrapped in a sleek dark cyberpunk/neon interface that looks incredible on any device.
+
+
+(Click above to start learning instantly)
+
+</div>
 
 👥 Contributors
 
